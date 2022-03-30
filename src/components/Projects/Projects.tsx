@@ -5,7 +5,7 @@ import './Projects.scss';
 
 function Projects() {
   return (
-    <section id='project' className='projects-container'>
+    <section id='projects' className='projects-container'>
       <h2 className='section-title'> Projects </h2>
       <div className='projects-grid-container'>
         {projects.map((project, index) => {
