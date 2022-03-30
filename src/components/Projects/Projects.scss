@@ -1,0 +1,44 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+
+  .section-title {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 72px;
+    width: max-content;
+    max-width: 100%;
+    color: #fff;
+    margin-bottom: 16px;
+    padding: 58px 0 16px;
+    @media screen and (max-width: 640px) {
+      font-size: 32px;
+      line-height: 40px;
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 8px;
+      padding: 16px 0 8px;
+      max-width: 100%;
+    }
+  }
+  .projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding: 3rem;
+    place-items: center;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    @media screen and (max-width: 640px) {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      padding-bottom: 0;
+    }
+  }
+}
