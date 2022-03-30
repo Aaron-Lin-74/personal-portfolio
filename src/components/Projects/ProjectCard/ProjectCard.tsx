@@ -13,7 +13,10 @@ function ProjectCard({ project }: PropType) {
         className='project-image-container'
         onClick={() => window.open(project.link, '_blank')}
       >
-        <img src={project.image} alt='project screenshot' />
+        <img
+          src={process.env.PUBLIC_URL + project.image}
+          alt='project screenshot'
+        />
       </div>
       <div className='project-title'>
         <h3>{project.title}</h3>

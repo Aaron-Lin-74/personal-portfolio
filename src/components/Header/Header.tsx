@@ -1,13 +1,13 @@
-import React from 'react'
-import { BsPersonCircle } from 'react-icons/bs'
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import './Header.scss'
+import React from 'react';
+import { BsPersonCircle } from 'react-icons/bs';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import './Header.scss';
 
 function Header() {
   return (
     <header>
       <div className='logo-container'>
-        <a className='logo-link' href='/'>
+        <a className='logo-link' href={process.env.PUBLIC_URL}>
           <BsPersonCircle size='3rem' /> <span>Portfolio</span>
         </a>
       </div>
@@ -47,7 +47,7 @@ function Header() {
         </a>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

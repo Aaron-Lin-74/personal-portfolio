@@ -32,7 +32,10 @@ function Hero() {
           </div>
           <div className='profile-right'>
             <div className='profile-picture'>
-              <img src='/images/Yaotian_Lin.jpg' alt='my profile' />
+              <img
+                src={process.env.PUBLIC_URL + '/images/Yaotian_Lin.jpg'}
+                alt='my profile'
+              />
             </div>
           </div>
         </div>
