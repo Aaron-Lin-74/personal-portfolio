@@ -35,6 +35,7 @@ header {
   }
   .main-nav {
     grid-area: 1 / 2 / 2 / 5;
+    align-self: center;
     @media screen and (max-width: 640px) {
       grid-area: 2 / 1 / 3 / 6;
     }
