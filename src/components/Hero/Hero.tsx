@@ -1,6 +1,6 @@
-import React from 'react';
-import Typical from 'react-typical';
-import './Hero.scss';
+import React from 'react'
+import Typical from 'react-typical'
+import './Hero.scss'
 
 function Hero() {
   return (
@@ -16,6 +16,8 @@ function Hero() {
                 <Typical
                   steps={[
                     'Frontend Developer',
+                    1500,
+                    'Software Engineer',
                     1500,
                     'Motivated Tech Enthusiast',
                     2000,
@@ -42,7 +44,7 @@ function Hero() {
         <div className='profile-details-text'>
           <span className='primary-text'>
             <h2>
-              I am a highly motivated <strong>Frontend Developer</strong> who is
+              I am a highly motivated <strong>Software Engineer</strong> who is
               passionate about web development.
             </h2>
             <p>
@@ -57,16 +59,13 @@ function Hero() {
           <a href='#contact'>
             <button>Hire Me</button>
           </a>
-          <a
-            href='Aaron(Yaotian)_Lin_Resume.pdf'
-            download='Aaron(Yaotian)_Lin_Resume.pdf'
-          >
+          <a href='Aaron_Lin_Resume.pdf' download='Aaron_Lin_Resume.pdf'>
             <button>View Resume</button>
           </a>
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
