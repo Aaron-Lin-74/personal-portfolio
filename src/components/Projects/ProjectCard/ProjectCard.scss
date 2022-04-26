@@ -3,8 +3,10 @@
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  height: 600px;
   max-width: 400px;
   min-width: 300px;
+  position: relative;
   @media screen and (max-width: 640px) {
     width: 100%;
   }
@@ -22,11 +24,12 @@
       }
     }
   }
-  .project-title {
+  .project-info {
     text-align: center;
     z-index: 20;
     width: 100%;
-
+    padding: 15px 2px;
+    height: 180px;
     h3 {
       font-weight: 500;
       letter-spacing: 2px;
@@ -45,14 +48,26 @@
         padding: 3rem;
       }
     }
-
+  }
+  .project-stack {
+    margin: 15px auto;
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
     .project-tag-list {
       display: flex;
       justify-content: space-around;
       padding-bottom: 2rem;
       padding-inline-start: 0;
     }
-
+  }
+  .project-button-container {
+    position: absolute;
+    bottom: 0;
+    height: 85px;
+    width: 100%;
     .project-link-list {
       list-style-type: none;
       padding: 0;

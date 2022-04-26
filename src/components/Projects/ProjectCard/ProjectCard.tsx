@@ -18,15 +18,20 @@ function ProjectCard({ project }: PropType) {
           alt='project screenshot'
         />
       </div>
-      <div className='project-title'>
+      <div className='project-info'>
         <h3>{project.title}</h3>
         <p className='project-card-info'>{project.description}</p>
-        <div className='project-title'>Stack</div>
+      </div>
+      <div className='project-stack'>
+        <h4>Stack</h4>
+
         <ul className='project-tag-list'>
           {project.tags.map((tag, idx) => {
             return <li key={idx}>{tag}</li>;
           })}
         </ul>
+      </div>
+      <div className='project-button-container'>
         <ul className='project-link-list'>
           <li>
             <a className='external-link' href={project.link}>
