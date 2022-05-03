@@ -1,14 +1,24 @@
 export interface ProjectType {
-  title: string;
-  description: string;
-  image: string;
-  tags: string[];
-  source: string;
-  link: string;
-  id: number;
+  title: string
+  description: string
+  image: string
+  tags: string[]
+  source: string
+  link: string
+  id: number
 }
 
 export const projects: ProjectType[] = [
+  {
+    title: 'Amazon Clone E-Commerce',
+    description:
+      'Develop a e-commerce Amazon Clone web application with React, TypeScript, SCSS, Sanity as Headless CMS, and Stripe. This desktop e-commerce app is for demonstration only. I implement the main e-commerce functionalities.',
+    image: '/images/ecommerce-1.png',
+    tags: ['React', 'TypeScript', 'Stripe', 'Firebase', 'Sanity'],
+    source: 'https://github.com/Aaron-Lin-74/amazon-clone',
+    link: 'https://clone-b1e10.web.app/',
+    id: 0,
+  },
   {
     title: 'MERN Learn Animals',
     description:
@@ -17,18 +27,9 @@ export const projects: ProjectType[] = [
     tags: ['MongoDB Atlas', 'Express', 'React', 'Node', 'Redux'],
     source: 'https://github.com/Aaron-Lin-74/learn-animal-mern-project',
     link: 'http://learnanimalmern-env.eba-mn3hxtuv.ap-southeast-2.elasticbeanstalk.com',
-    id: 0,
-  },
-  {
-    title: 'Amazon Clone E-Commerce',
-    description:
-      'Develop a e-commerce Amazon Clone web application with React, TypeScript, SCSS. This desktop e-commerce app is for demonstration only. I implement the main e-commerce functionalities.',
-    image: '/images/ecommerce-1.png',
-    tags: ['React', 'TypeScript', 'SCSS', 'Firebase', 'CI/CD'],
-    source: 'https://github.com/Aaron-Lin-74/amazon-clone',
-    link: 'https://clone-b1e10.web.app/',
     id: 1,
   },
+
   {
     title: 'Animal Sounds',
     description:
@@ -49,4 +50,4 @@ export const projects: ProjectType[] = [
     link: 'https://aaronlin-project-chatroom.web.app',
     id: 3,
   },
-];
+]
