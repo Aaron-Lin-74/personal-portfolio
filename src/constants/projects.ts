@@ -1,18 +1,18 @@
 export interface ProjectType {
-  title: string
-  description: string
-  image: string
-  tags: string[]
-  source: string
-  link: string
-  id: number
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  source: string;
+  link: string;
+  id: number;
 }
 
 export const projects: ProjectType[] = [
   {
     title: 'Amazon Clone E-Commerce',
     description:
-      'Develop a e-commerce Amazon Clone web application with React, TypeScript, SCSS, Sanity as Headless CMS, and Stripe. This desktop e-commerce app is for demonstration only. I implement the main e-commerce functionalities.',
+      'Developed a full-stack e-commerce Amazon Clone web application with React, TypeScript, SCSS, Sanity CMS, Stripe and Google Firebase Functions. This desktop e-commerce app is for demonstration only. I implemented the main e-commerce functionalities.',
     image: '/images/ecommerce-1.png',
     tags: ['React', 'TypeScript', 'Stripe', 'Firebase', 'Sanity'],
     source: 'https://github.com/Aaron-Lin-74/amazon-clone',
@@ -50,4 +50,4 @@ export const projects: ProjectType[] = [
     link: 'https://aaronlin-project-chatroom.web.app',
     id: 3,
   },
-]
+];
