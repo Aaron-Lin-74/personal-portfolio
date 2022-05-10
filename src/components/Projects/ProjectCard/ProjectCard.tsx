@@ -34,12 +34,22 @@ function ProjectCard({ project }: PropType) {
       <div className='project-button-container'>
         <ul className='project-link-list'>
           <li>
-            <a className='external-link' href={project.link}>
+            <a
+              className='external-link'
+              href={project.link}
+              target='_blank'
+              rel='noreferrer'
+            >
               Live Demo
             </a>
           </li>
           <li>
-            <a className='external-link' href={project.source}>
+            <a
+              className='external-link'
+              href={project.source}
+              target='_blank'
+              rel='noreferrer'
+            >
               Github Repo
             </a>
           </li>
