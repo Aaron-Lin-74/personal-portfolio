@@ -1,6 +1,6 @@
-import React from 'react'
-import Typical from 'react-typical'
-import './Hero.scss'
+import React from 'react';
+import Typical from 'react-typical';
+import './Hero.scss';
 
 function Hero() {
   return (
@@ -59,13 +59,13 @@ function Hero() {
           <a href='#contact'>
             <button>Hire Me</button>
           </a>
-          <a href='Aaron_Lin_Resume.pdf' download='Aaron_Lin_Resume.pdf'>
+          <a href='Yaotian_Lin_Resume.pdf' download='Yaotian_Lin_Resume.pdf'>
             <button>View Resume</button>
           </a>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
