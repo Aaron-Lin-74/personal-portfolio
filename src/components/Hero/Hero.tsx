@@ -48,7 +48,7 @@ function Hero() {
               passionate about web development.
             </h2>
             <p>
-              My experiences include front-end web development (React, Redux,
+              My experiences include front-end web development (React,
               JavaScript ES6/TypeScript, HTML5, and CSS3/SASS), back-end web
               development (Node/Express, REST API), and AWS Cloud
               infrastructure.
@@ -59,7 +59,7 @@ function Hero() {
           <a href='#contact'>
             <button>Hire Me</button>
           </a>
-          <a href='Yaotian_Lin_Resume.pdf' download='Yaotian_Lin_Resume.pdf'>
+          <a href='Aaron Lin Resume.pdf' download='Aaron Lin Resume.pdf'>
             <button>View Resume</button>
           </a>
         </div>
