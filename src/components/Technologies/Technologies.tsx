@@ -6,7 +6,7 @@ function Technologies() {
     <section id='tech' className='tech-container'>
       <h2 className='section-title'>Technologies</h2>
       <h3>
-        I've worked with a range a technologies in the web development world.{' '}
+        I've worked with a range a technologies in the web development world.
         <br />
         From Front-End To Back-End.
       </h3>
@@ -16,8 +16,7 @@ function Technologies() {
             <h4 className='list-title'>Front-End</h4>
             <p>
               Experiece with <br />
-              React.js + Redux
-              <br />
+              React.js <br />
               JavaScript <br />
               TypeScript <br />
               HTML5 <br />
@@ -30,6 +29,7 @@ function Technologies() {
               Experiece with <br />
               Node.js <br />
               Express <br />
+              PostgreSQL <br />
               MongoDB <br />
               REST API <br />
             </p>
