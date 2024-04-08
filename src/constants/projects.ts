@@ -16,7 +16,7 @@ export const projects: ProjectType[] = [
     image: '/images/ecommerce-1.png',
     tags: ['React', 'TypeScript', 'Stripe', 'Firebase', 'Sanity'],
     source: 'https://github.com/Aaron-Lin-74/amazon-clone',
-    link: 'https://clone-b1e10.web.app/',
+    link: 'https://my-ecommerce-227d4.web.app/',
     id: 0,
   },
   {
